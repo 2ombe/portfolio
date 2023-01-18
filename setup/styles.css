@@ -304,12 +304,11 @@ header {
     url(./computer.jpg) center/cover no-repeat;
 }
 .banner {
-  min-height: 100vh;
+  min-height: auto;
   display: grid;
   place-items: center;
   text-align: center;
-  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./computer.jpg) center/cover no-repeat;
+  background-image: "glid.jpg";
 }
 .container h1 {
   color: var(--clr-white);
@@ -340,7 +339,7 @@ header {
 #about,
 #services,
 #tours {
-  height: 100vh;
+  height: 130vh;
 }
 #services {
   background: var(--clr-white);
